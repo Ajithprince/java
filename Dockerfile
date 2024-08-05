@@ -5,7 +5,7 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copy the packaged JAR file into the container
-COPY target/your-java-app.jar /app/your-java-app.jar
+#COPY target/your-java-app.jar /app/your-java-app.jar
 
 # Specify the command to run your application
-CMD ["java", "-jar", "your-java-app.jar"]
+#CMD ["java", "-jar", "your-java-app.jar"]
